@@ -107,3 +107,9 @@ InitTestScene*.unity*
 
 # Auto-generated cache in Assets folder
 /[Aa]ssets/[Ss]ceneDependencyCache*
+# Secrets and local configuration
+.env
+.env.*
+!.env.example
+# Plastic SCM local metadata
+.plastic/
